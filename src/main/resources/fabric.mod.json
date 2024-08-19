@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "create_aquatic_ambitions",
+  "version": "${version}",
+  "name": "Create Aquatic Ambitions Starbound Patch",
+  "description": "Patch of Create Aquatic Ambitions which works with DG. Made for the Create: Starbound Modpack.",
+  "authors": [
+    "Souldbminer",
+    "daviOliva"
+  ],
+  "contact": {
+    "sources": "https://github.com/davioliva16/create-aquatic-ambitions"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.davio.create_aquatic_ambitions.CreateAquaticAmbitions"
+    ],
+    "client": [
+      "net.davio.create_aquatic_ambitions.CreateAquaticAmbitionsClient"
+    ],
+    "jei_mod_plugin": [
+      "net.davio.create_aquatic_ambitions.compat.jei.CCAJEI"
+    ]
+  },
+  "mixins": [
+    "create_aquatic_ambitions.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": "0.5.1-f-build.1417+mc1.20.1",
+    "minecraft": "${minecraft_version}"
+  }
+}

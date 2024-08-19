@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:prismarine_bricks"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:experience_nugget",
+      "count": 2
+    },
+    {
+      "item": "create:experience_nugget",
+      "count": 1,
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "count": 1,
+      "chance": 0.9
+    },
+    {
+      "item": "create:copper_nugget",
+      "count": 1,
+      "chance": 0.125
+    }
+  ]
+}
